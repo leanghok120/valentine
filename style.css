@@ -15,3 +15,27 @@ body {
 img {
   width: 250px;
 }
+
+button {
+  width: 70px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+#yes-btn {
+  background-color: #00ef00;
+}
+
+#no-btn {
+  background-color: #ff0000;
+}
