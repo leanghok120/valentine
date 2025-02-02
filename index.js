@@ -3,6 +3,15 @@ const noBtn = document.getElementById("no-btn");
 const header = document.getElementById("header");
 const img = document.getElementById("img");
 
+const noWords = [
+  ":<",
+  "Are you sure?",
+  "Plssss :c",
+  "i use arch btw",
+  "created by leanghok btw",
+];
+
+let index = 0;
 let width = 70;
 let height = 50;
 
@@ -18,4 +27,8 @@ function handleNo() {
   height *= 1.4;
   yesBtn.style.width = `${width}px`;
   yesBtn.style.height = `${height}px`;
+  if (index < 4) {
+    index++;
+    noBtn.textContent = noWords[index];
+  }
 }
