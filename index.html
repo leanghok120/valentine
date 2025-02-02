@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
+    <title>Will u be my valentine?</title>
     <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,11 +13,11 @@
     />
   </head>
   <body>
-    <img src="./cute-love-bear-roses.gif" alt="valentine gif" />
-    <h1>Will you be my valentine?</h1>
+    <img src="./cute-love-bear-roses.gif" alt="valentine gif" id="img" />
+    <h1 id="header">Will you be my valentine?</h1>
     <div class="btn-container">
-      <button id="yes-btn">Yes</button>
-      <button id="no-btn" onclick="handleClick()">No</button>
+      <button id="yes-btn" onclick="handleYes()">Yes</button>
+      <button id="no-btn" onclick="handleNo()">No</button>
     </div>
     <script src="./index.js"></script>
   </body>
