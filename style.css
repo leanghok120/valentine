@@ -9,4 +9,9 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Inter", sans-serif;
+  background-color: #fbfbfb;
+}
+
+img {
+  width: 250px;
 }
