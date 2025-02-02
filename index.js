@@ -7,8 +7,8 @@ const noWords = [
   ":<",
   "Are you sure?",
   "Plssss :c",
-  "i use arch btw",
-  "created by leanghok btw",
+  "Im super duper rich",
+  "Im literally perfect",
 ];
 
 let index = 0;
